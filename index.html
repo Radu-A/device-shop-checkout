@@ -11,100 +11,122 @@
       sizes="96x96"
     />
 
+    <link rel="stylesheet" href="./style/style.css" class="style">
+
     <title>Device Shop Checkout | devChallenges.io</title>
 
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        height: 100vh;
-      }
-
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
-
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
   </head>
   <body>
-    <!--     
-    Checkout
-    
-    3 items
-    
-    iPhone 12 Pro
-    
-    Golden
-    
-    $999.00
-    
-    x 1
-    
-    Apple Watch
-    
-    Blue
-    
-    $399.00
-    
-    iMac
-    
-    Green
-    
-    $1199.00
-    
-    Enter coupon code
-    
-    Apply Coupon
-    
-    Sub total
-    
-    $2597.00
-    
-    Tax
-    
-    $623.28
-    
-    Total
-    
-    $3220.28
-    
-    Contact Information
-    
-    First & Last name
-    
-    Enter first & last name
-    
-    Email Address
-    
-    Enter email address
-    
-    Country
-    
-    Finland
-    
-    Postal Code
-    
-    00270
-    
-    Continue
-     -->
 
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
-    </div>
+    <header>
+      <nav>
+        <p>Checkout</p>
+        <p>
+          3 items
+        </p>
+      </nav>
+    </header>
+
+    <main>
+      <section class="summary">
+        <article class="list">
+          <div class="item">
+            <div class="photo">
+
+            </div>
+            <div class="description">
+              <div class="description-header">
+                <p>iPhone 12 Pro</p>
+                <p>Golden</p>
+              </div>
+              <div class="description-footer">
+                <p>x 1</p>
+              </div>
+            </div>
+            <div class="price">
+              <p>$999.00</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="photo">
+              
+            </div>
+            <div class="description">
+              <div class="description-header">
+                <p>Apple Watch</p>
+                <p>Blue</p>
+              </div>
+              <div class="description-footer">
+                <p>x 1</p>
+              </div>
+            </div>
+            <div class="price">
+              <p>$399.00</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="photo">
+              
+            </div>
+            <div class="description">
+              <div class="description-header">
+                <p>iMac</p>
+                <p>Green</p>
+              </div>
+              <div class="description-footer">
+                <p>x 1</p>
+              </div>
+            </div>
+            <div class="price">
+              $1199.00
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="total-section">
+        <form action="" class="total-form">
+          <input type="text" name="Enter coupon code" id="" placeholder="Enter coupon code">
+          <button>Apply Coupon</button>
+        </form>
+        <article class="summation">
+          <div class="sub">
+            <p>Sub total</p>
+            <p>$2597.00</p>
+          </div>
+          <div class="tax">
+            <p>Tax</p>
+            <p>$623.28</p>
+          </div>
+          <div class="total-div">
+            <p>Total</p>
+            <p>$3220.28</p>
+          </div>
+        </article>
+      </section>
+      <section class="contact-section">
+        <h1 class="contact-header">Contact Information</h1>
+        <form action="" class="contact-form">
+          <label for="name">First & Last name</label>
+          <input type="text" name="name" placeholder="Enter first & last name">
+          <label for="email">Email Address</label>
+          <input type="text" name="email" placeholder="Enter email address">
+          <label for="country">Country</label>
+          <select name="" id="country">Finland</select>
+          <label for="">Postal Code</label>
+          <input type="text" name="" placeholder="00270">
+          <button class="contact-button">Continue</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="author-info">
+        Coded by <a href="#">Your Name Here</a> | Challenge by
+        <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+          >devChallenges.io</a
+        >.
+      </div>
+    </footer>
+    
   </body>
 </html>
