@@ -20,10 +20,10 @@
 
     <header>
       <nav>
-        <p>Checkout</p>
-        <p>
-          3 items
-        </p>
+        <h1>Checkout</h1>
+        <div class="note">
+          <p>3 ITEMS</p>
+        </div>
       </nav>
     </header>
 
@@ -32,90 +32,102 @@
         <section class="summary">
           <article class="list">
             <div class="item">
-              <div class="photo">
-                <img src="./resources/Gold.png" alt="" class="item-img">
-              </div>
-              <div class="description">
-                <div class="description-header">
-                  <p>iPhone 12 Pro</p>
-                  <p>Golden</p>
+              <div class="item-left">
+                <div class="photo">
+                  <img src="./resources/Gold.png" alt="" class="item-img">
                 </div>
-                <div class="description-footer">
-                  <p>x 1</p>
+                <div class="description">
+                  <div class="description-header">
+                    <h4>iPhone 12 Pro</h4>
+                    <p>Golden</p>
+                  </div>
+                  <div class="description-footer">
+                    <p>x 1</p>
+                  </div>
                 </div>
               </div>
+              
               <div class="price">
-                <p>$999.00</p>
+                <h4>$999.00</h4>
+                <img src="./resources/close-icon.svg" alt="" class="close">
               </div>
             </div>
             <div class="item">
-              <div class="photo">
-                <img src="./resources/Apple-watch.png" alt="" class="item-img">
-              </div>
-              <div class="description">
-                <div class="description-header">
-                  <p>Apple Watch</p>
-                  <p>Blue</p>
+              <div class="item-left">
+                <div class="photo">
+                  <img src="./resources/Apple-watch.png" alt="" class="item-img">
                 </div>
-                <div class="description-footer">
-                  <p>x 1</p>
-                </div>
+                <div class="description">
+                  <div class="description-header">
+                    <h4>Apple Watch</h4>
+                    <p>Blue</p>
+                  </div>
+                  <div class="description-footer">
+                    <p>x 1</p>
+                  </div>
+                </div>            
               </div>
               <div class="price">
-                <p>$399.00</p>
+                <h4>$399.00</h4>
+                <img src="./resources/close-icon.svg" alt="" class="close">
               </div>
             </div>
             <div class="item">
-              <div class="photo">
-                <img src="./resources/iMac.png" alt="" class="item-img">
-              </div>
-              <div class="description">
-                <div class="description-header">
-                  <p>iMac</p>
-                  <p>Green</p>
+              <div class="item-left">
+                <div class="photo">
+                  <img src="./resources/iMac.png" alt="" class="item-img">
                 </div>
-                <div class="description-footer">
-                  <p>x 1</p>
+                <div class="description">
+                  <div class="description-header">
+                    <h4>iMac</h4>
+                    <p>Green</p>
+                  </div>
+                  <div class="description-footer">
+                    <p>x 1</p>
+                  </div>
                 </div>
               </div>
               <div class="price">
-                $1199.00
+                <h4>$1199.00</h4>
+                <img src="./resources/close-icon.svg" alt="" class="close">
               </div>
             </div>
           </article>
-          <article class="total-section">
+          <article class="total-article">
             <form action="" class="total-form">
-              <input type="text" name="Enter coupon code" id="" placeholder="Enter coupon code">
-              <button>Apply Coupon</button>
+              <input type="text" name="Enter coupon code" class="total-input" placeholder="Enter coupon code">
+              <button class="total-button">Apply Coupon</button>
             </form>
-            <article class="summation">
-              <div class="sub">
-                <p>Sub total</p>
-                <p>$2597.00</p>
+            <div class="summation">
+              <div class="summation-item" id="sub">
+                <h4>Sub total</h4>
+                <h4>$2597.00</h4>
               </div>
-              <div class="tax">
-                <p>Tax</p>
-                <p>$623.28</p>
+              <div class="summation-item" id="tax">
+                <h4>Tax</h4>
+                <h4>$623.28</h4>
               </div>
-              <div class="total-div">
-                <p>Total</p>
-                <p>$3220.28</p>
+              <div class="summation-item" id="total-div">
+                <h4>Total</h4>
+                <h4>$3220.28</h4>
               </div>
-            </article>
+            </div>
           </article>
         </section>
         <section class="contact-section">
-          <h1 class="contact-header">Contact Information</h1>
+          <p class="contact-header">Contact Information</p>
           <form action="" class="contact-form">
-            <label for="name">First & Last name</label>
-            <input type="text" name="name" placeholder="Enter first & last name">
-            <label for="email">Email Address</label>
-            <input type="text" name="email" placeholder="Enter email address">
+            <label class="double-column" for="name">First & Last name</label>
+            <input class="double-column" type="text" name="name" placeholder="Enter first & last name" id="name">
+            <label class="double-column" for="email">Email Address</label>
+            <input class="double-column" type="text" name="email" placeholder="Enter email address" id="email">
             <label for="country">Country</label>
-            <select name="" id="country">Finland</select>
-            <label for="">Postal Code</label>
-            <input type="text" name="" placeholder="00270">
-            <button class="contact-button">Continue</button>
+            <select name="" id="country">
+              <option value="">Finland</option>
+            </select>
+            <label for="postal">Postal Code</label>
+            <input type="text" name="" placeholder="00270" id="postal">
+            <button class="contact-button double-column">Continue</button>
           </form>
         </section>
       </div>
@@ -124,7 +136,7 @@
 
     <footer>
       <div class="author-info">
-        Coded by <a href="#">Your Name Here</a> | Challenge by
+        Coded by <a href="https://github.com/Radu-A">Radu Alexandru</a> | Challenge by
         <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
           >devChallenges.io</a
         >.
